@@ -28,7 +28,7 @@ If you want to be just a little bit more advanced, I suggest you to use pm2 for 
 `pm2 start index.js -i 4`
  Congratulations! You now have a running Discord floor price bot.
  
- ## Node Virtual Environment - contriubted by luxcode007
+ ## Node Virtual Environment - contributed by luxcode007
 https://pypi.org/project/nodeenv/#usage
 Install & set up Node.js virtual environment to load package-lock.json
 To install on OS bash terminal:
