@@ -27,6 +27,22 @@ To get the current channels floor prices (see mapping in index.js, if other proj
 If you want to be just a little bit more advanced, I suggest you to use pm2 for your bot. If you want to run your bot with load balanced instances, you can use the command:
 `pm2 start index.js -i 4`
  Congratulations! You now have a running Discord floor price bot.
+ 
+ ## Node Virtual Environment - contriubted by luxcode007
+https://pypi.org/project/nodeenv/#usage
+Install & set up Node.js virtual environment to load package-lock.json
+To install on OS bash terminal:
+$ sudo easy_install nodeenv
+To open virtual environment:
+First create it while inside the project folder
+$ nodeenv env
+Then activate it:
+$ . env/bin/activate
+Finally, install the package-lock.json contents while inside the (venv) just activated: (from https://nodejs.dev/learn/the-package-lock-json-file)
+$ . env/bin/activate
+
+Now the project is ready to be run using: node index.js
+
 
 ## Tip/Donation
 If you want to say thank you, you can find me on Twitter @jrxcodes.
